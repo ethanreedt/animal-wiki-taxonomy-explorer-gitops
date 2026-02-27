@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   parentRefs:
-  - name: gateway
+  - name: traefik-gateway
     namespace: traefik
   hostnames:
   - "animalwiki.ethant.net"
@@ -13,14 +13,14 @@ spec:
   - matches:
     - path:
         type: PathPrefix
-        value: /
+        value: /api
     backendRefs:
-    - name: frontend
+    - name: backend
       port: 80
   - matches:
     - path:
         type: PathPrefix
-        value: /api
+        value: /
     backendRefs:
-    - name: backend
+    - name: frontend
       port: 80
