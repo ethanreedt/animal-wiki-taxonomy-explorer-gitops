@@ -1,3 +1,5 @@
 resources:
+  - helmrepo.yaml
+  - helmrelease.yaml
   - standard-install.yaml
   - kubernetes-gateway-rbac.yml
