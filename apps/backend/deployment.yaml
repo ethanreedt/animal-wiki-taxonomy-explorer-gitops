@@ -20,6 +20,9 @@ spec:
           image: ghcr.io/ethanreedt/animal-wiki-taxonomy-explorer-backend:latest@sha256:e4e646c71b765084525a21077a6034fa4521af5038bc233fbe24b7a06d0f794b # {"$imagepolicy": "flux-system:backend"}
           ports:
             - containerPort: 8000
+          envFrom:
+            - secretRef:
+              name: postgres-db
           resources:
             requests:
               cpu: "100m"
