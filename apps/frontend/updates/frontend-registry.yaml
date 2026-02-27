@@ -1,0 +1,9 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1
+kind: ImageRepository
+metadata:
+  name: frontend
+  namespace: flux-system
+spec:
+  image: ghcr.io/ethanreedt/animal-wiki-taxonomy-explorer-frontend
+  interval: 5m0s
