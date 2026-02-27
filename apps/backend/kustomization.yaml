@@ -1,3 +1,5 @@
 resources:
   - deployment.yaml
   - service.yaml
+  - updates/backend-policy.yaml
+  - updates/backend-registry.yaml

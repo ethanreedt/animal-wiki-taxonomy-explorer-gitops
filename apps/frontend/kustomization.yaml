@@ -1,3 +1,5 @@
 resources:
   - deployment.yaml
   - service.yaml
+  - updates/frontend-policy.yaml
+  - updates/frontend-registry.yaml
