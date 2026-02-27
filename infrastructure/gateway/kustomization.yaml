@@ -1,4 +1,2 @@
 resources:
-  - gateway-class.yaml
-  - gateway.yaml
   - httproute.yaml
