@@ -6,7 +6,7 @@ metadata:
 spec:
   parentRefs:
   - name: gateway
-  - namespace: traefik
+    namespace: traefik
   hostnames:
   - "animalwiki.ethant.net"
   rules:
