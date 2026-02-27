@@ -5,4 +5,4 @@ resources:
 - gotk-sync.yaml
 - ../../../apps/frontend
 - ../../../apps/backend
-- ../../../infrastructure/cert-manager
+- ../../../infrastructure/traefik
