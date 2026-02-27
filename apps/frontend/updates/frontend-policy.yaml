@@ -11,4 +11,4 @@ spec:
   policy:
     alphabetical: {}
   digestReflectionPolicy: Always
-  interval: 1m0s #10m
+  interval: 10m
