@@ -17,8 +17,8 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ghcr.io/ethanreedt/animal-wiki-taxonomy-explorer-backend:latest@sha-c99c115e1055d74b65fa694110a4103e748651ff  # {"$imagepolicy": "flux-system:backend"}
-          ports: 
+          image: ghcr.io/ethanreedt/animal-wiki-taxonomy-explorer-backend:latest@sha256:40aad01f8bcbfed2d638bf2df2b252f9acf3ac1ebdedb295524ee82769fd702e # {"$imagepolicy": "flux-system:backend"}
+          ports:
             - containerPort: 8000
           resources:
             requests:
@@ -32,5 +32,3 @@ spec:
     rollingUpdate:
       maxSurge: 1
       maxUnavailable: 0
-
-
