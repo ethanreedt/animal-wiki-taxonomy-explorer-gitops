@@ -4,7 +4,12 @@ metadata:
   name: infra-gateway
   namespace: traefik
 spec:
+  interval: 5m
   path: ../../../infrastructure/gateway
+  prune: true
+  wait: true
   dependsOn:
     - name: infra-traefik
-  wait: true
+  sourceRef:
+    kind: GitRepository
+    name: flux-system
