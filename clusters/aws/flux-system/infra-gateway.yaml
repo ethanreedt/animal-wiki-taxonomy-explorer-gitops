@@ -1,0 +1,9 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: infra-gateway
+spec:
+  path: ../../../infrastructure/gateway
+  dependsOn:
+    - name: infra-traefik
+  wait: true
