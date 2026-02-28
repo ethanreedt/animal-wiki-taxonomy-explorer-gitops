@@ -3,7 +3,6 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
-- ../../../apps/image-update-automation.yaml
 - ../../../apps/frontend
 - ../../../apps/backend
 - ../../../infrastructure/traefik
