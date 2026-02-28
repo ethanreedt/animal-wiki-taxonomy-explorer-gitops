@@ -7,3 +7,6 @@ resources:
 - ../../../apps/backend
 - ../../../infrastructure/traefik
 - ../../../infrastructure/gateway
+
+patchesStrategicMerge:
+  - patches/httproute-host.yaml
