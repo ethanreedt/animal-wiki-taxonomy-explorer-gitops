@@ -5,6 +5,7 @@ resources:
 - gotk-sync.yaml
 - ../../../apps/image-update-automation.yaml
 - ../../../apps/frontend
-- ../backend
+- ../backend # secrets overlay
 - ../../../infrastructure/traefik
 - ../../../infrastructure/gateway
+- ../../../infrastructure/cert-manager
