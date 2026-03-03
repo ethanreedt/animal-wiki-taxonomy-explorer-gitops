@@ -1,0 +1,3 @@
+resources:
+  - ../../../backend
+  - aws-db-auth-sealed.yaml

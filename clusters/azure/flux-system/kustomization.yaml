@@ -5,6 +5,6 @@ resources:
 - gotk-sync.yaml
 - ../../../apps/image-update-automation.yaml
 - ../../../apps/frontend
-- ../../../apps/backend
+- ../backend
 - ../../../infrastructure/traefik
 - ../../../infrastructure/gateway

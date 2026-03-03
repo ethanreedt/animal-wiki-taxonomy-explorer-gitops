@@ -4,7 +4,7 @@ resources:
 - gotk-components.yaml
 - gotk-sync.yaml
 - ../../../apps/frontend
-- ../../../apps/backend
+- ../backend
 - ../../../infrastructure/traefik
 - ../../../infrastructure/gateway
 
