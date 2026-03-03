@@ -8,5 +8,5 @@ resources:
 - ../../../infrastructure/traefik
 - ../../../infrastructure/gateway
 
-patchesStrategicMerge:
-  - patches/httproute-host.yaml
+# patchesStrategicMerge:
+#   - patches/httproute-host.yaml
