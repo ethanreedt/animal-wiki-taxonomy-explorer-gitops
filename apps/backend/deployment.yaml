@@ -22,7 +22,7 @@ spec:
             - containerPort: 8000
           envFrom:
             - secretRef:
-                name: db-auth
+                name: postgres-db
           resources:
             requests:
               cpu: "100m"
