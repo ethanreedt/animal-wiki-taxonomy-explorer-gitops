@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ghcr.io/ethanreedt/animal-wiki-taxonomy-explorer-frontend:latest@sha256:b44093921f62443683f5029f67898fce8d99eda272024c0ae541a55579674f55 # {"$imagepolicy": "flux-system:frontend"}
+          image: ghcr.io/ethanreedt/animal-wiki-taxonomy-explorer-frontend:latest@sha256:fbddd7f7daf272f6e7f3c8d8b510302243616e3b68b0b4249ace226f2516368f # {"$imagepolicy": "flux-system:frontend"}
           resources:
             requests:
               cpu: "100m"
